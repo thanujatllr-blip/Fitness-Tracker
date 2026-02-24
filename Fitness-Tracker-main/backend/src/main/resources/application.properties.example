@@ -1,0 +1,27 @@
+spring.application.name=FitnessTrackerApp
+
+# DATABASE CONFIGURATION
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA / HIBERNATE CONFIG
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# USDA FoodData Central API
+usda.api.key=YOUR_USDA_API_KEY_HERE
+usda.api.base-url=https://api.nal.usda.gov/fdc/v1
+
+# WGER API
+wger.api.key=YOUR_WGER_API_KEY_HERE
+wger.api.base-url=https://wger.de/api/v2/
+
+# JWT Secret (Generate using: PowerShell command or online generator)
+jwt.secret=GENERATE_A_SECURE_64_CHARACTER_SECRET_KEY_HERE
+
+# SERVER PORT (optional)
+# server.port=8080
