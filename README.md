@@ -8,8 +8,7 @@ This backend supports the core functionality of the fitness app, exposing RESTfu
 
 - 🏃 **User management** — sign up, login, profile updates  
 - 🏋️ **Workout logging** — create and track workouts and exercise sessions  
-- 📊 **Analytics endpoints** — fetch reports and summaries of fitness data  
-- 🔐 **Spring Security** integration (optional) for authentication & authorization  
+- 📊 **Analytics endpoints** — fetch reports and summaries of fitness data   
 - 🗃️ **Database integration** using JPA / Hibernate  
 - 📦 Clean layered architecture (controllers → services → repositories)
 
